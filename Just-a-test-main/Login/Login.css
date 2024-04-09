@@ -1,0 +1,107 @@
+*{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57d2e5c5bebafbc1a4a62ae0/1476293722660-V341FT1IO2EB9B7ZYL3E/MOTION+CROIX.jpg?format=1000w");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+a{
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center ;
+    padding: 10px 0 10px 0;
+}
+
+header{
+    color: white;
+    display: flex;
+    padding: 10px 0 10px ;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: white;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+.submit{
+    border:none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background:  rgb(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+    
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:small;
+    color: white;
+    margin-top: 10px;
+}
+
+.left{
+    display: flex;
+}
+
+label a{
+ color: white;
+ text-decoration: none;
+}
+
+
+
+
+
